@@ -49,6 +49,10 @@ a:visited {
 }
 a:hover {
 	text-decoration: none;
+	color: blue;
+}
+nav a:hover {
+	text-decoration: none;
 	color: white;
 }
 a:active {
@@ -70,15 +74,19 @@ header.main_nav{
 	display: block;
 	text-align: center;
 	font-size: 2em;
-	background-color: #2E2EFF;
 }
 a.nav:hover{
 	background-color: red;
 	
 }
+a.nav:link {
+	color: black;
+	text-decoration: none;
+}
 a.nav{
 	border: 0 solid black;
 	padding: .6%;
+	border-radius: 8px;
 }
 
 /* Images & Media
@@ -126,8 +134,9 @@ p.copyright{
 footer{
 	background-color:#E6E6E6;
 }
-	
- 
+footer.a:link{
+	color: red;
+}
  /* Media Queries
 ______________________________________*/
 

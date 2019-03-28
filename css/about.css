@@ -1,0 +1,99 @@
+/* Table of Contents
+ _____________________________________
+ -General Contents
+ -Media Queries
+ _____________________________________*/
+
+/* General Content
+______________________________________*/
+.row{
+	padding: 1% 0;
+	margin: 3% 0 3% 0;	
+}
+.blue{
+	background-color: #fff;
+	border: 5px solid;
+	border-image: linear-gradient(to right, red 25%, blue 25%, blue 50%, blue 50%, blue 75%, red 75%) 5;
+	border-radius: 20px;
+	padding: 0 0 0 0;
+}
+.portfolio{
+	height: 492px;
+}
+h1{
+	color: blue;
+}
+hr{
+	border: 1px solid red; margin: 0 30% 5% 30%;"
+}
+ /* Media Queries
+______________________________________*/
+
+@media (max-width: 479px) {
+	.logo a{font-size: 2em;}
+	.main{padding-top:15%;}
+	.portfolio img{margin-bottom: 10%;
+	}
+	.portfolio{
+	height: 492px;
+}
+	img.avatar{margin-top: 15%;}
+	h2.bio{font-size: 2.5em;}
+	p.bio{font-size:1.25em; color: #3f7f7c;}
+	ul.social li a{font-size: .75em;}
+}
+/*
+@media (min-width: 400px){
+	.services_l{
+		list-style-type: none; 
+		text-align: center;
+		padding-left: 0;
+		margin-right: 0;
+	}
+	.services_r{
+		list-style-type: none; 
+		text-align: center;
+		padding-right: 0;
+		margin-left: 0;
+	}
+}
+*/
+@media (min-width: 550px) {
+	.services_l{
+		padding-left: 40%;
+	}
+	.services_r{
+		padding-right: 40%;
+	}
+}
+
+@media (min-width: 750px){
+	.services_l{
+		padding-left: 60%;
+	}
+	.services_r{
+		padding-right: 60%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.services_l{
+		padding-left: 70%;
+		margin-right: -7%;
+	}
+	.services_r{
+		padding-right: 70%;
+		margin-left: -7%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.services_l{
+		padding-left: 80%;
+		margin-right: -5%;
+	}
+	.services_r{
+		padding-right: 80%;
+		margin-left: -5%;
+	}
+}
